@@ -5,7 +5,7 @@
   body {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-    /* color: #fff; */
+    color: #fff;
     margin: 0;
   }
   
@@ -102,7 +102,51 @@ nav ul li {
     padding-right: 15%;
   }
 
+  #team {
+    background-color: #7251B5;
+  }
+
+  #team h2,
+  .team-intro {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
   .team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 2.5em;
+    gap: 1em;
+  }
+
+  .team-grid article {
+    background-color: #6647a6;
+    border-radius: 20px;
+    padding: 2em 0;
+
+    text-align: center;
+  }
+
+  .team-grid article img {
+    width: 80px;
+
+    border-radius: 50%;
+    filter: grayscale(100%);
+  }
+
+  .team-grid h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  .team-grid article p {
+    margin-top: 0;
+  }
+
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 1em 0;
   }
